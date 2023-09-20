@@ -13,7 +13,7 @@ const MiddleEdittingP = () => {
   };
 
   return (
-    <div style={{ border: "1px solid red" }}>
+    <div style={{ border: "1px solid red", height: "400px", width: "800px" }}>
       <Editor
         editorState={editorState}
         toolbarClassName="toolbarClassName"
@@ -22,9 +22,7 @@ const MiddleEdittingP = () => {
         onEditorStateChange={onEditorStateChange}
       />
       {/* You can access the editor's content from editorState whenever needed */}
-      <button onClick={() => console.log(editorState.getCurrentContent())}>
-        Log Content
-      </button>
+      <button onClick={() => console.log(editorState)}>Log Content</button>
     </div>
   );
 };

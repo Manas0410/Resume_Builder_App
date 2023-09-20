@@ -29,3 +29,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <RouterProvider router={router} />
   </Provider>
 );
+{
+  /* <script>
+      // Add this polyfill at the top of your script file
+      if (typeof global === "undefined") {
+        global = window;
+      }
+    </script> */
+}
