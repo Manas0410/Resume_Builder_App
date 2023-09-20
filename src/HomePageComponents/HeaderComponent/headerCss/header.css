@@ -1,0 +1,64 @@
+/* header.css */
+
+/* Container for the header */
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    background-color: #080909;
+    /* Background color */
+    color: #ffffff;
+    /* Text color */
+    padding: 20px;
+    /* Padding around the content */
+    text-align: center;
+    /* Center-align text */
+    
+}
+
+/* Logo styles */
+.logo {
+    font-size: 24px;
+    /* Font size */
+    font-weight: bold;
+    /* Bold text */
+    margin-bottom: 10px;
+    /* Margin below the logo */
+}
+
+/* Button styles */
+button {
+    background-color: #393434;
+    /* Button background color */
+    color: #ffffff;
+    /* Button text color */
+    border: none;
+    /* Remove border */
+    padding: 10px 20px;
+    /* Padding inside the button */
+    font-size: 16px;
+    /* Font size */
+    cursor: pointer;
+    /* Add cursor pointer on hover */
+    transition: background-color 0.3s;
+    /* Smooth background color transition on hover */
+
+    /* Rounded corners */
+    border-radius: 5px;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #484443;
+    /* Darker background color on hover */
+}
+.templates-container{
+        position: fixed;
+            top: 7%;
+            left: 11%;
+            border: 1px solid red;
+            overflow-y: scroll;
+            height: 90vh;
+            width: 80vw;
+        background-color: #E5E7EB;
+        color: #080909;
+        }
