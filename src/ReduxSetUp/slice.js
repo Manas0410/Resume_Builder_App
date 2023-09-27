@@ -46,9 +46,6 @@ export const counterSlice = createSlice({
   name: "counter",
   initialState,
   reducers: {
-    incrementByAmount: (state, action) => {
-      state.value += action.payload;
-    },
     addContent: (state, action) => {
       state.data[action.payload].added = true; //in payload key will come fromcomponent
     },
