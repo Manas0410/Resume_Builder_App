@@ -1,0 +1,23 @@
+/* CSS */
+.container {
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    height: 100vh;
+}
+
+.left-column {
+    flex: 1;
+    flex-basis: 5%;
+    border: 1px solid rebeccapurple;
+    /* Optional: Add styling for the left column */
+}
+
+.middle-column,
+.right-column {
+    flex: 1;
+    border: 1px solid rebeccapurple;
+        flex-basis: 40%;
+    /* 80% / 2 = 40% for both middle and right columns */
+    /* Optional: Add styling for the middle and right columns */
+}

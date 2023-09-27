@@ -1,0 +1,14 @@
+.contentContainer{
+    position: absolute;
+    height: 80vh;
+    width: 80vw;
+    top: 20%;
+    left: 10%;
+    overflow-y: scroll;
+    background-color: pink;
+        display: flex;
+            padding: 40px;
+}
+.contentContainer div button{
+    width: 200px;
+}
