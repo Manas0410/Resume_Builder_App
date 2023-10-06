@@ -1,7 +1,8 @@
 import LeftToolsP from "./LeftTools/LeftToolsP";
 import MiddleEdittingP from "./MiddleEditting/MiddleEdittingP";
-import RightPreviewP from "./RightPreview/RightPreviewP";
+// import RightPreviewP from "./RightPreview/RightPreviewP";
 import "./CreateResumePageCss/CreateResumePage.css";
+import PdfGenerator from "./MiddleEditting/SaveAsPdfComponent";
 
 const CreateResumeP = () => {
   return (
@@ -13,7 +14,8 @@ const CreateResumeP = () => {
         <MiddleEdittingP />
       </div>
       <div className="right-column">
-        <RightPreviewP />
+        {/* <RightPreviewP /> */}
+        <PdfGenerator />
       </div>
     </div>
   );

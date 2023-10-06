@@ -1,46 +1,31 @@
-// eslint-disable-next-line react/prop-types
-import { useDispatch } from "react-redux";
+/* eslint-disable react/prop-types */
+import { useDispatch, useSelector } from "react-redux";
 import { addContent } from "../../ReduxSetUp/slice";
+import "./AddContents.css"; // Import the external CSS file
 
-// eslint-disable-next-line react/prop-types
 const AddContentsP = ({ flag }) => {
+  const data = useSelector((state) => state.cartReducer.data);
   const dispatch = useDispatch();
 
   return (
-    <div style={contentContainer}>
+    <div className="AddContents-container">
+      <div className="button-container">
+        {Object.keys(data).map((item, i) => (
+          <button
+            key={i}
+            className="button"
+            onClick={() => {
+              dispatch(addContent(item));
+              flag(false);
+            }}
+          >
+            {item}
+          </button>
+        ))}
+      </div>
+
       <button
-        onClick={() => {
-          dispatch(addContent("Profile"));
-          flag(false);
-        }}
-      >
-        PROFILE
-      </button>
-      <button
-        onClick={() => {
-          dispatch(addContent("Education"));
-          flag(false);
-        }}
-      >
-        EDUCATION
-      </button>
-      <button
-        onClick={() => {
-          dispatch(addContent("Skill"));
-          flag(false);
-        }}
-      >
-        SKILL
-      </button>
-      <button
-        onClick={() => {
-          dispatch(addContent("Professional_Experience"));
-          flag(false);
-        }}
-      >
-        PROFESSIONAL EXPERIENCE
-      </button>
-      <button
+        className="close-button"
         onClick={() => {
           flag(false);
         }}
@@ -50,9 +35,5 @@ const AddContentsP = ({ flag }) => {
     </div>
   );
 };
-const contentContainer = {
-  display: "flex",
-  flexDirection: "column",
-  gap: "20px",
-};
+
 export default AddContentsP;

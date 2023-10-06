@@ -39,6 +39,13 @@ const initialState = {
         "End Date": "",
       },
     },
+    Projects: {
+      added: false,
+      content: {
+        "project name": "",
+        desc: "",
+      },
+    },
   },
 };
 
@@ -58,9 +65,15 @@ export const counterSlice = createSlice({
 });
 
 // Action creators are generated for each case reducer function
-export const { incrementByAmount, addContent, addDataOfContent } =
-  counterSlice.actions;
+export const { addContent, addDataOfContent } = counterSlice.actions;
 
 export default counterSlice.reducer;
 // // {() => dispatch(addQuantity(item))}
 // // const cartList = useSelector((state) => state.cartReducer.cart);
+// Projects: {
+//       added: false,
+//       content: {
+//         "project name": "",
+//         desc: "",
+//       },
+//     },

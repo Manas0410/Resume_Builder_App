@@ -22,7 +22,7 @@ const MiddleEdittingP = () => {
 
   return (
     <div>
-      <button onClick={() => console.log(editorState)}>Log Content</button>
+      {/* <button onClick={() => console.log(editorState)}>Log Content</button> */}
       <button
         onClick={() => {
           setAddContentFlag(true);

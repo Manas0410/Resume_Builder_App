@@ -1,0 +1,19 @@
+.previewContainer{
+    display: flex;
+    flex-direction: column;
+    
+    font-family: 'Roboto Mono', monospace;
+    padding-left: 40px;
+        padding-top: 40px;
+        padding-right: 40px;
+        gap: 20px;
+        background-color: #9b999917;
+            height: -webkit-fill-available;
+}
+   
+.previewHeading{
+font-weight: bolder;
+}
+.previewContent{
+font-size: 12px;
+}

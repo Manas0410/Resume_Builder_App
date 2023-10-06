@@ -12,7 +12,12 @@
     /* Padding around the content */
     text-align: center;
     /* Center-align text */
-    
+    background-color: #F13DA0;
+        position: fixed;
+            top: 24px;
+            left: 16px;
+            right: 16px;
+            border-radius: 12px;
 }
 
 /* Logo styles */
