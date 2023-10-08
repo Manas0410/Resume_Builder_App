@@ -1,0 +1,54 @@
+.hBodyContainer{
+    color: white;
+    margin: 20px 87px;
+}
+.firstBodyContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 90px;
+}
+.bheading {
+    font-size: 40px;
+}
+.btext {
+    font-size: 22px;
+}
+.secondBodyContainer{
+    display: grid;
+    color: white;
+    margin: 20px 87px;
+    grid-template-areas: 
+    "sbcFirst sbcSecond sbcSecond sbcThird"
+    "sbcFirst sbcFourth sbcFourth sbcFourth"
+    "sbcFirst sbcFifth sbcFifth sbcSixth";
+    gap: 10px;
+}
+.sbcFirst{
+    grid-area: "sbcFirst";
+    background-color: red;
+}
+.sbcSecond{
+    grid-area: "sbcSecond";
+    background-color: red;
+}
+.sbcThird{
+    grid-area: "sbcThird";
+    background-color: red;
+}
+.sbcFourth{
+    grid-area: "sbcFourth";
+    background-color: red;
+}
+.sbcFifth{
+    grid-area: "sbcFifth";
+    background-color: red;
+}
+.sbcSixth{
+    grid-area: "sbcSixth";
+    background-color: red;
+}
+.gridImage{
+    height: 200px;
+}
