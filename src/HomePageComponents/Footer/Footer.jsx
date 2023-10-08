@@ -11,7 +11,6 @@ const Footer = () => {
 };
 
 const footer = {
-  marginTop: "101px",
   fontSize: "12px",
   display: "flex",
   flexDirection: "column",
