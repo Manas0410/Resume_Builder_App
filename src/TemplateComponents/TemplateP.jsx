@@ -1,5 +1,6 @@
 //rn creating only one template so, will hardcode it later can fetch api on this page for templates
 import { Link } from "react-router-dom";
+import "./TemplateP.css/Template.css";
 const TemplateP = () => {
   return (
     <div>

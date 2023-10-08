@@ -7,8 +7,8 @@ const Header = () => {
   const templateRef = useRef(null); // Create a ref for the TemplateP component
 
   // Handle the button click to toggle the flag
-    const handleButtonClick = (event) => {
-      event.stopPropagation()
+  const handleButtonClick = (event) => {
+    event.stopPropagation();
     setFlag(true);
   };
 
@@ -35,7 +35,9 @@ const Header = () => {
   return (
     <div className="header-container">
       <div className="logo">Build Resume by MANAS</div>
-      <button onClick={handleButtonClick}>GET STARTED</button>
+      <button onClick={handleButtonClick} className="bn632-hover bn24">
+        GET STARTED
+      </button>
       {flag && (
         <div className="templates-container" ref={templateRef}>
           <TemplateP />

@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./MiddleComponent.css";
 
 const BodyContaint = () => {
@@ -9,8 +10,9 @@ const BodyContaint = () => {
           Take Your Career to New Heights with our AI-Boosted All-in-One
           Platform. Start for Free and Elevate with Premium Options.
         </div>
-        <button>Get started - It’s free ✨</button>
-
+        <Link to={"/templates"}>
+          <button className="bn5">Get started - It’s free ✨</button>
+        </Link>
         <div className="message">
           <img
             src="https://assets.flowcvassets.com/landing/flowcv-loved-by-users.webp"
