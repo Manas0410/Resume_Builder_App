@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import "./HomePageBodycss/HomePageBody.css";
+import "./homePageBodycss/HomePageBody.css";
 const HomePageBodyP = () => {
   return (
     <div className="hBodyContainer">
