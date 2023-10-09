@@ -1,6 +1,6 @@
 .hBodyContainer{
     color: white;
-    margin: 20px 87px;
+    margin: 20px 80px;
 }
 .firstBodyContainer{
     display: flex;
@@ -60,10 +60,14 @@
     height: 412px;
         width: 267px;
         border-radius: 20px;
+        object-fit: cover;
 }
 
 .sbcBorderRad{
     border-radius: 20px;
     padding: 0 15px;
-    object-fit: cover;
+    transition:transform 0.3s ease ;
+}
+.sbcBorderRad:hover{
+    transform: scale(1.05);
 }
