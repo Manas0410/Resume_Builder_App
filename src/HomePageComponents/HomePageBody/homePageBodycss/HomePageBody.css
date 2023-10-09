@@ -18,37 +18,52 @@
 .secondBodyContainer{
     display: grid;
     color: white;
-    margin: 20px 87px;
+  
     grid-template-areas: 
     "sbcFirst sbcSecond sbcSecond sbcThird"
     "sbcFirst sbcFourth sbcFourth sbcFourth"
     "sbcFirst sbcFifth sbcFifth sbcSixth";
     gap: 10px;
+    
+        height: 388px;
+        font-size: 28px;
+        padding: 17px;
 }
 .sbcFirst{
-    grid-area: "sbcFirst";
-    background-color: red;
+    grid-area: sbcFirst;
+    height: 412px;
+        width: 267px;
+        border-radius: 20px;
 }
 .sbcSecond{
-    grid-area: "sbcSecond";
-    background-color: red;
+    grid-area: sbcSecond;
+    background-color:#6C9ADF
 }
 .sbcThird{
-    grid-area: "sbcThird";
-    background-color: red;
+    grid-area: sbcThird;
+    background-color:#62449B ;
 }
 .sbcFourth{
-    grid-area: "sbcFourth";
-    background-color: red;
+    grid-area: sbcFourth;
+    background-color: #61B9B3;
 }
 .sbcFifth{
-    grid-area: "sbcFifth";
-    background-color: red;
+    grid-area: sbcFifth;
+    background-color: #7F85A8;
 }
 .sbcSixth{
-    grid-area: "sbcSixth";
-    background-color: red;
+    grid-area: sbcSixth;
+    background-color:#917CBA ;
+    border-radius: 20px;
 }
 .gridImage{
-    height: 200px;
+    height: 412px;
+        width: 267px;
+        border-radius: 20px;
+}
+
+.sbcBorderRad{
+    border-radius: 20px;
+    padding: 0 15px;
+    object-fit: cover;
 }

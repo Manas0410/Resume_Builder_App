@@ -2,7 +2,7 @@
 import "./homePageBodycss/HomePageBody.css";
 const HomePageBodyP = () => {
   return (
-    <div className="hBodyContainer">
+    <div className="hBodyContainer ">
       <div className="firstBodyContainer">
         <div className="bheading">
           <h1>Showcase yourself</h1>
@@ -23,26 +23,26 @@ const HomePageBodyP = () => {
         </div>
       </div>
       <div className="secondBodyContainer">
-        <div className="sbcFirst">
+        <div className="sbcFirst ">
           <img
             src="https://assets.flowcvassets.com/landing/woman-smiling-1024.webp"
             alt="image"
             className="gridImage"
           />
         </div>
-        <div className="sbcSecond">
+        <div className="sbcSecond sbcBorderRad">
           <p>Unlock a world of opportunities to shape your career journey</p>
         </div>
-        <div className="sbcThird">
+        <div className="sbcThird sbcBorderRad">
           <p>Effortless Application Creation</p>
         </div>
-        <div className="sbcFourth">
+        <div className="sbcFourth sbcBorderRad">
           <p>Become the standout candidate to potential employers</p>
         </div>
-        <div className="sbcFifth">
+        <div className="sbcFifth sbcBorderRad">
           <p>Confidence strengthened by Personal Branding</p>
         </div>
-        <div className="sbcSixth">
+        <div className="sbcSixth sbcBorderRad">
           <p>
             Streamlined application creation, freeing up more time for your
             preparation
