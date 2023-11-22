@@ -3,32 +3,32 @@ import { Link } from "react-router-dom";
 import "./TemplateP.css/Template.css";
 const TemplateP = () => {
   return (
-    <div>
+    <div className="templateContainer">
       <h1>RESUME TEMPLATES</h1>
-      <div>
+      <div className="templateBox">
         <Link to={"/create"}>
           <img src="./template1.PNG" alt="" height={"285px"} />
           <span>FIRST TEMPLATE</span>
         </Link>
       </div>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
-      <h1>RESUME TEMPLATES</h1>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
+      <div className="templateBox">RESUME TEMPLATES</div>
     </div>
   );
 };

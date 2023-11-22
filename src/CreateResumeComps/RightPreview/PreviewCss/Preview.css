@@ -8,7 +8,8 @@
         padding-right: 40px;
         gap: 20px;
         background-color: #9b999917;
-            height: -webkit-fill-available;
+            height:842px;
+            
 }
    
 .previewHeading{
@@ -16,4 +17,7 @@ font-weight: bolder;
 }
 .previewContent{
 font-size: 12px;
+}
+.previewContainer * {
+    margin: 0;
 }
